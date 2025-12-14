@@ -22,3 +22,17 @@
     - Max Response Time: 426 ms
     - Errors: 2 (4%)
 - Notes: Only 2 requests failed (4%), indicating the system handled load fairly well.
+
+
+### Patient Update Load Test – CLI Run
+- Test Plan: jmeter/scripts/patient_update.jmx
+- Total Requests: 50
+- Test Duration: 30 seconds
+- CLI run summary:
+    - Throughput: 1.7 requests/sec
+    - Avg Response Time: 192 ms
+    - Min Response Time: 88 ms
+    - Max Response Time: 1482 ms
+    - Errors: 1 (2%)
+- Notes: Only 1 request failed, system handled load successfully.
+
