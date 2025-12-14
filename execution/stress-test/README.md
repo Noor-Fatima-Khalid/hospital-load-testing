@@ -20,9 +20,7 @@
 - Active Threads: 3000
 - Notes: System failed under extreme load. Almost all requests failed, indicating the breaking point is between 2000 - 3000 or slightly above 3000 users.
 
-# POST /register Stress Test Execution
-
-Test Run: POST /register 
+# POST /register 
 - Threads/Users: 2240 (started), peaked at 1218 active
 - Total Requests: 1527
 - Average Throughput: 293.5 req/sec
