@@ -36,3 +36,15 @@
     - Errors: 1 (2%)
 - Notes: Only 1 request failed, system handled load successfully.
 
+
+### Patient Read (GET) Load Test – CLI Run
+- Test Plan: jmeter/scripts/patient_read.jmx
+- Total Requests: 200  (Loop count = 4 for 50 users)
+- Test Duration: 31 seconds
+- CLI run summary:
+    - Throughput: 6.4 requests/sec
+    - Avg Response Time: 335 ms
+    - Min Response Time: 121 ms
+    - Max Response Time: 1389 ms
+    - Errors: 0 (0%)
+- Notes: GET requests do not use request body. System handled frequent read operations efficiently under load.
