@@ -1,0 +1,34 @@
+{
+  "patient_update" : {
+    "transaction" : "patient_update",
+    "sampleCount" : 3998,
+    "errorCount" : 3998,
+    "errorPct" : 100.0,
+    "meanResTime" : 618.6970985492729,
+    "medianResTime" : 429.5,
+    "minResTime" : 0.0,
+    "maxResTime" : 3436.0,
+    "pct1ResTime" : 1648.1,
+    "pct2ResTime" : 1958.0,
+    "pct3ResTime" : 2432.049999999999,
+    "throughput" : 59.43832419011938,
+    "receivedKBytesPerSec" : 114.30180376377056,
+    "sentKBytesPerSec" : 5.600320175096264
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 3998,
+    "errorCount" : 3998,
+    "errorPct" : 100.0,
+    "meanResTime" : 618.6970985492729,
+    "medianResTime" : 429.5,
+    "minResTime" : 0.0,
+    "maxResTime" : 3436.0,
+    "pct1ResTime" : 1648.1,
+    "pct2ResTime" : 1958.0,
+    "pct3ResTime" : 2432.049999999999,
+    "throughput" : 59.43832419011938,
+    "receivedKBytesPerSec" : 114.30180376377056,
+    "sentKBytesPerSec" : 5.600320175096264
+  }
+}
