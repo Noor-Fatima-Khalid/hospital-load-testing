@@ -32,7 +32,7 @@
 - Notes:
 System completely failed under this load. All requests returned errors, indicating the system cannot handle >1200 concurrent users for GET /patients. This run helps identify the breaking point for write operations.
 
-# GET /update 
+# POST /update 
 - Total Requests: 325
 - Average Throughput: 109.6 req/sec
 - Average Response Time: 482 ms
@@ -41,3 +41,13 @@ System completely failed under this load. All requests returned errors, indicati
 - Errors: 100%
 - Active Threads: 164 (peak)
 - Notes: All requests failed under this load, indicating the system could not handle 164+ concurrent users with this configuration. Immediate failures suggest the need for performance optimization.
+
+# DELETE /delete
+- Total Requests: 2000
+- Average Throughput: 100.9 req/sec
+- Average Response Time: 570 ms
+- Min Response Time: 29 ms
+- Max Response Time: 893 ms
+- Errors: 100% (2000/2000 requests failed)
+- Active Threads: 2000
+- Notes: System immediately returned errors under high load. 
