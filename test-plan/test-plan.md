@@ -16,7 +16,7 @@ Test the performance of patient CRUD APIs under load.
 ## Load Profile
 - Virtual Users: 50
 - Ramp-up: 30s
-- Loop Count: 10
+- Loop Count: 1
 - Test Duration: 5 min
 
 ## Metrics to Capture
