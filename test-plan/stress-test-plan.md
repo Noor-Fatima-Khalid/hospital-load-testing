@@ -27,3 +27,11 @@ Determine the maximum load the Hospital Management System can handle before fail
 ## Tools
 - JMeter
 - CSV test data
+
+
+## Execution Steps
+1. Open JMeter and load `jmeter/scripts/patient_stress_test.jmx`
+2. Ensure `CSV Data Set Config` is pointing to `jmeter/test-data/patients.csv`
+3. Start the test and monitor metrics in `Summary Report` and `Graph Results`
+4. Gradually increase threads/users until response times degrade or errors appear
+5. Save HTML and CSV reports in `execution/stress-test/`
