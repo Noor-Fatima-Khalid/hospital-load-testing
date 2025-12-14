@@ -1,0 +1,207 @@
+2025-12-14 20:46:21,438 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-12-14 20:46:21,487 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2025-12-14 20:46:21,505 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2025-12-14 20:46:21,511 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-12-14 20:46:21,511 INFO o.a.j.JMeter: Version 5.6.3
+2025-12-14 20:46:21,511 INFO o.a.j.JMeter: java.version=23
+2025-12-14 20:46:21,511 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: os.name=Windows 10
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: os.arch=amd64
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: os.version=10.0
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: java.awt.headless=true
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-12-14 20:46:21,512 INFO o.a.j.JMeter: Available Processors =4
+2025-12-14 20:46:21,533 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-12-14 20:46:21,533 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-12-14 20:46:21,534 INFO o.a.j.JMeter: JMeterHome=E:\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-12-14 20:46:21,534 INFO o.a.j.JMeter: user.dir  =E:\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-12-14 20:46:21,534 INFO o.a.j.JMeter: PWD       =E:\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-12-14 20:46:26,061 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: DESKTOP-GMLF4T4 FullName: DESKTOP-GMLF4T4
+2025-12-14 20:46:26,088 INFO o.a.j.s.FileServer: Default base='E:\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2025-12-14 20:46:26,089 INFO o.a.j.s.FileServer: Set new base='E:\BSSE\7th Semester\Software Quality Engineering\Project\Load Testing'
+2025-12-14 20:46:26,559 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-12-14 20:46:26,624 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-12-14 20:46:26,627 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-12-14 20:46:26,632 INFO o.a.j.s.SaveService: Loading file: E:\BSSE\7th Semester\Software Quality Engineering\Project\Load Testing\patient_delete.jmx
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-12-14 20:46:26,730 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-14 20:46:26,784 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-12-14 20:46:26,822 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-12-14 20:46:26,824 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-14 20:46:26,824 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-14 20:46:26,833 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-12-14 20:46:26,833 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-12-14 20:46:26,936 INFO o.a.j.JMeter: Running test (1765727186936)
+2025-12-14 20:46:26,964 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-12-14 20:46:26,964 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2025-12-14 20:46:26,965 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-12-14 20:46:26,965 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=30 delayedStart=false
+2025-12-14 20:46:27,026 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-12-14 20:46:27,026 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-12-14 20:46:27,104 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-12-14 20:46:27,108 INFO o.a.j.s.FileServer: Stored: E:/BSSE/7th Semester/Software Quality Engineering/Project/Load Testing/patients.csv
+2025-12-14 20:46:27,154 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-GMLF4T4
+2025-12-14 20:46:27,160 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-12-14 20:46:27,161 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-12-14 20:46:27,161 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-12-14 20:46:27,162 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-12-14 20:46:27,162 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-12-14 20:46:27,412 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2025-12-14 20:46:27,413 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-12-14 20:46:27,713 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2025-12-14 20:46:27,841 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2025-12-14 20:46:27,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2025-12-14 20:46:28,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2025-12-14 20:46:28,424 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2025-12-14 20:46:28,425 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2025-12-14 20:46:28,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2025-12-14 20:46:29,038 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2025-12-14 20:46:29,038 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2025-12-14 20:46:29,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2025-12-14 20:46:29,628 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2025-12-14 20:46:29,629 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2025-12-14 20:46:30,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2025-12-14 20:46:30,236 INFO o.a.j.r.Summariser: summary +      6 in 00:00:03 =    1.8/s Avg:   129 Min:   119 Max:   164 Err:     5 (83.33%) Active: 1 Started: 6 Finished: 5
+2025-12-14 20:46:30,238 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2025-12-14 20:46:30,238 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2025-12-14 20:46:30,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2025-12-14 20:46:30,838 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2025-12-14 20:46:30,838 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2025-12-14 20:46:31,293 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2025-12-14 20:46:31,420 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2025-12-14 20:46:31,420 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2025-12-14 20:46:31,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2025-12-14 20:46:32,017 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2025-12-14 20:46:32,017 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2025-12-14 20:46:32,503 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2025-12-14 20:46:32,633 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2025-12-14 20:46:32,634 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2025-12-14 20:46:33,101 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2025-12-14 20:46:33,220 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2025-12-14 20:46:33,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2025-12-14 20:46:33,700 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2025-12-14 20:46:33,827 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2025-12-14 20:46:33,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2025-12-14 20:46:34,292 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2025-12-14 20:46:34,422 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2025-12-14 20:46:34,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2025-12-14 20:46:34,891 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2025-12-14 20:46:35,017 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2025-12-14 20:46:35,017 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2025-12-14 20:46:35,490 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2025-12-14 20:46:35,980 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2025-12-14 20:46:35,980 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2025-12-14 20:46:36,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2025-12-14 20:46:36,221 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2025-12-14 20:46:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2025-12-14 20:46:36,688 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2025-12-14 20:46:36,811 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2025-12-14 20:46:36,811 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2025-12-14 20:46:37,286 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2025-12-14 20:46:37,412 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2025-12-14 20:46:37,412 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2025-12-14 20:46:37,886 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2025-12-14 20:46:38,009 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2025-12-14 20:46:38,010 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2025-12-14 20:46:38,486 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2025-12-14 20:46:38,609 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2025-12-14 20:46:38,609 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2025-12-14 20:46:39,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2025-12-14 20:46:39,221 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2025-12-14 20:46:39,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2025-12-14 20:46:39,683 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2025-12-14 20:46:39,809 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2025-12-14 20:46:39,809 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2025-12-14 20:46:40,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2025-12-14 20:46:40,421 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2025-12-14 20:46:40,421 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2025-12-14 20:46:40,882 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2025-12-14 20:46:41,014 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2025-12-14 20:46:41,014 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2025-12-14 20:46:41,482 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2025-12-14 20:46:41,605 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2025-12-14 20:46:41,605 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2025-12-14 20:46:42,081 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2025-12-14 20:46:42,203 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2025-12-14 20:46:42,203 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2025-12-14 20:46:42,678 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2025-12-14 20:46:42,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2025-12-14 20:46:42,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2025-12-14 20:46:43,279 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2025-12-14 20:46:43,408 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2025-12-14 20:46:43,409 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2025-12-14 20:46:43,879 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2025-12-14 20:46:44,006 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2025-12-14 20:46:44,006 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2025-12-14 20:46:44,478 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2025-12-14 20:46:44,610 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2025-12-14 20:46:44,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2025-12-14 20:46:45,087 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2025-12-14 20:46:45,224 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2025-12-14 20:46:45,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2025-12-14 20:46:45,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2025-12-14 20:46:45,810 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2025-12-14 20:46:45,810 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2025-12-14 20:46:46,287 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2025-12-14 20:46:46,430 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2025-12-14 20:46:46,430 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2025-12-14 20:46:46,881 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2025-12-14 20:46:47,031 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2025-12-14 20:46:47,032 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2025-12-14 20:46:47,471 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2025-12-14 20:46:47,594 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2025-12-14 20:46:47,594 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2025-12-14 20:46:48,067 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2025-12-14 20:46:48,190 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2025-12-14 20:46:48,190 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2025-12-14 20:46:48,668 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2025-12-14 20:46:48,792 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2025-12-14 20:46:48,792 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2025-12-14 20:46:49,268 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2025-12-14 20:46:49,397 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2025-12-14 20:46:49,398 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2025-12-14 20:46:49,863 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2025-12-14 20:46:49,988 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2025-12-14 20:46:49,988 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2025-12-14 20:46:50,461 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2025-12-14 20:46:50,585 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2025-12-14 20:46:50,585 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2025-12-14 20:46:51,064 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2025-12-14 20:46:51,203 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2025-12-14 20:46:51,204 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2025-12-14 20:46:51,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2025-12-14 20:46:51,812 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-42
+2025-12-14 20:46:51,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2025-12-14 20:46:52,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2025-12-14 20:46:52,394 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2025-12-14 20:46:52,394 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2025-12-14 20:46:52,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2025-12-14 20:46:52,998 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-44
+2025-12-14 20:46:53,000 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2025-12-14 20:46:53,464 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2025-12-14 20:46:53,599 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2025-12-14 20:46:53,600 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2025-12-14 20:46:54,057 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2025-12-14 20:46:54,179 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-46
+2025-12-14 20:46:54,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2025-12-14 20:46:54,661 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2025-12-14 20:46:54,788 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2025-12-14 20:46:54,789 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2025-12-14 20:46:55,247 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2025-12-14 20:46:55,365 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2025-12-14 20:46:55,366 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2025-12-14 20:46:55,846 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2025-12-14 20:46:55,977 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2025-12-14 20:46:55,977 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2025-12-14 20:46:56,441 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2025-12-14 20:46:56,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2025-12-14 20:46:56,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2025-12-14 20:46:56,571 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-12-14 20:46:56,572 INFO o.a.j.s.FileServer: Close: E:/BSSE/7th Semester/Software Quality Engineering/Project/Load Testing/patients.csv
+2025-12-14 20:46:56,579 INFO o.a.j.r.Summariser: summary +     44 in 00:00:26 =    1.7/s Avg:   132 Min:   116 Max:   488 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2025-12-14 20:46:56,580 INFO o.a.j.r.Summariser: summary =     50 in 00:00:30 =    1.7/s Avg:   132 Min:   116 Max:   488 Err:     5 (10.00%)

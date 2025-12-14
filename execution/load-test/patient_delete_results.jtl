@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1765727187244,164,Patient Delete,404,Not Found,Thread Group 1-1,text,false,,321,218,1,1,http://localhost:6005/api/patients/delete-patient,163,0,26
+1765727187719,122,Patient Delete,404,Not Found,Thread Group 1-2,text,false,,321,225,1,1,http://localhost:6005/api/patients/delete-patient,122,0,2
+1765727188304,120,Patient Delete,404,Not Found,Thread Group 1-3,text,false,,321,227,1,1,http://localhost:6005/api/patients/delete-patient,119,0,2
+1765727188904,132,Patient Delete,404,Not Found,Thread Group 1-4,text,false,,321,222,1,1,http://localhost:6005/api/patients/delete-patient,132,0,2
+1765727189509,119,Patient Delete,404,Not Found,Thread Group 1-5,text,false,,321,228,1,1,http://localhost:6005/api/patients/delete-patient,118,0,1
+1765727190102,122,Patient Delete,200,OK,Thread Group 1-6,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,122,0,2
+1765727190704,133,Patient Delete,200,OK,Thread Group 1-7,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,132,0,5
+1765727191296,123,Patient Delete,200,OK,Thread Group 1-8,text,true,,324,224,1,1,http://localhost:6005/api/patients/delete-patient,123,0,3
+1765727191899,118,Patient Delete,200,OK,Thread Group 1-9,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,117,0,1
+1765727192506,124,Patient Delete,200,OK,Thread Group 1-10,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,124,0,2
+1765727193103,116,Patient Delete,200,OK,Thread Group 1-11,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,116,0,1
+1765727193703,124,Patient Delete,200,OK,Thread Group 1-12,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,124,0,2
+1765727194296,125,Patient Delete,200,OK,Thread Group 1-13,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,125,0,6
+1765727194894,123,Patient Delete,200,OK,Thread Group 1-14,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,123,0,2
+1765727195491,488,Patient Delete,200,OK,Thread Group 1-15,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,488,0,1
+1765727196095,126,Patient Delete,200,OK,Thread Group 1-16,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,125,0,5
+1765727196690,121,Patient Delete,200,OK,Thread Group 1-17,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,120,0,2
+1765727197288,123,Patient Delete,200,OK,Thread Group 1-18,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,123,0,2
+1765727197889,120,Patient Delete,200,OK,Thread Group 1-19,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,120,0,2
+1765727198488,120,Patient Delete,200,OK,Thread Group 1-20,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,120,0,1
+1765727199095,125,Patient Delete,200,OK,Thread Group 1-21,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,125,0,4
+1765727199687,121,Patient Delete,200,OK,Thread Group 1-22,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,121,0,1
+1765727200293,128,Patient Delete,200,OK,Thread Group 1-23,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,128,0,2
+1765727200890,123,Patient Delete,200,OK,Thread Group 1-24,text,true,,324,225,1,1,http://localhost:6005/api/patients/delete-patient,123,0,2
+1765727201485,120,Patient Delete,200,OK,Thread Group 1-25,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,120,0,1
+1765727202084,118,Patient Delete,200,OK,Thread Group 1-26,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,118,0,1
+1765727202685,121,Patient Delete,200,OK,Thread Group 1-27,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,121,0,3
+1765727203286,123,Patient Delete,200,OK,Thread Group 1-28,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,123,0,4
+1765727203884,122,Patient Delete,200,OK,Thread Group 1-29,text,true,,324,225,1,1,http://localhost:6005/api/patients/delete-patient,122,0,3
+1765727204482,129,Patient Delete,200,OK,Thread Group 1-30,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,129,0,4
+1765727205094,130,Patient Delete,200,OK,Thread Group 1-31,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,130,0,3
+1765727205685,125,Patient Delete,200,OK,Thread Group 1-32,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,125,0,4
+1765727206291,139,Patient Delete,200,OK,Thread Group 1-33,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,138,0,2
+1765727206891,140,Patient Delete,200,OK,Thread Group 1-34,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,140,0,3
+1765727207474,121,Patient Delete,200,OK,Thread Group 1-35,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,121,0,2
+1765727208071,119,Patient Delete,200,OK,Thread Group 1-36,text,true,,324,224,1,1,http://localhost:6005/api/patients/delete-patient,119,0,2
+1765727208672,120,Patient Delete,200,OK,Thread Group 1-37,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,120,0,2
+1765727209271,126,Patient Delete,200,OK,Thread Group 1-38,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,125,0,2
+1765727209870,119,Patient Delete,200,OK,Thread Group 1-39,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,119,0,1
+1765727210463,122,Patient Delete,200,OK,Thread Group 1-40,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,122,0,1
+1765727211072,131,Patient Delete,200,OK,Thread Group 1-41,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,131,0,1
+1765727211672,141,Patient Delete,200,OK,Thread Group 1-42,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,141,0,2
+1765727212271,123,Patient Delete,200,OK,Thread Group 1-43,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,122,0,3
+1765727212863,134,Patient Delete,200,OK,Thread Group 1-44,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,134,0,4
+1765727213469,129,Patient Delete,200,OK,Thread Group 1-45,text,true,,324,230,1,1,http://localhost:6005/api/patients/delete-patient,129,0,2
+1765727214058,120,Patient Delete,200,OK,Thread Group 1-46,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,120,0,2
+1765727214663,125,Patient Delete,200,OK,Thread Group 1-47,text,true,,324,227,1,1,http://localhost:6005/api/patients/delete-patient,125,0,6
+1765727215247,118,Patient Delete,200,OK,Thread Group 1-48,text,true,,324,226,1,1,http://localhost:6005/api/patients/delete-patient,117,0,3
+1765727215853,123,Patient Delete,200,OK,Thread Group 1-49,text,true,,324,229,1,1,http://localhost:6005/api/patients/delete-patient,123,0,3
+1765727216443,126,Patient Delete,200,OK,Thread Group 1-50,text,true,,324,228,1,1,http://localhost:6005/api/patients/delete-patient,125,0,2
