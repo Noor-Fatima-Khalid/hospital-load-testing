@@ -1,0 +1,34 @@
+{
+  "Patient Update" : {
+    "transaction" : "Patient Update",
+    "sampleCount" : 50,
+    "errorCount" : 1,
+    "errorPct" : 2.0,
+    "meanResTime" : 192.4,
+    "medianResTime" : 134.5,
+    "minResTime" : 88.0,
+    "maxResTime" : 1482.0,
+    "pct1ResTime" : 220.8,
+    "pct2ResTime" : 477.7499999999983,
+    "pct3ResTime" : 1482.0,
+    "throughput" : 1.7004489185144878,
+    "receivedKBytesPerSec" : 1.0598247155999183,
+    "sentKBytesPerSec" : 0.48429582284723166
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 50,
+    "errorCount" : 1,
+    "errorPct" : 2.0,
+    "meanResTime" : 192.4,
+    "medianResTime" : 134.5,
+    "minResTime" : 88.0,
+    "maxResTime" : 1482.0,
+    "pct1ResTime" : 220.8,
+    "pct2ResTime" : 477.7499999999983,
+    "pct3ResTime" : 1482.0,
+    "throughput" : 1.7004489185144878,
+    "receivedKBytesPerSec" : 1.0598247155999183,
+    "sentKBytesPerSec" : 0.48429582284723166
+  }
+}
