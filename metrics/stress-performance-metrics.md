@@ -32,3 +32,6 @@ Server cannot handle 1200+ concurrent GET requests. This identifies the stress t
 | Maximum Response Time | 873 ms        |
 | Error Percentage      | 100%          |
 | Active Threads (peak) | 164           |
+-System failed (100% requests errored)
+Maximum response time before failure: 2 ms
+Indicates server breaking point reached Server cannot handle 150+ concurrent GET requests. This identifies the stress threshold.
