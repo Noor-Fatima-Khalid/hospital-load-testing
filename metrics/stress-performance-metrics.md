@@ -35,3 +35,16 @@ Server cannot handle 1200+ concurrent GET requests. This identifies the stress t
 -System failed (100% requests errored)
 Maximum response time before failure: 2 ms
 Indicates server breaking point reached Server cannot handle 150+ concurrent GET requests. This identifies the stress threshold.
+
+## Delete /delete
+| Metric                   | Value         |
+|---------------------------|---------------|
+| Total Requests            | 793           |
+| Average Throughput        | 205.2 req/sec |
+| Average Response Time     | 646 ms        |
+| Min Response Time         | 0 ms          |
+| Max Response Time         | 2280 ms       |
+| Errors                    | 98.36%        |
+| Active Threads            | 3000          |
+Maximum response time before failure: 2280 ms
+Indicates server breaking point reached Server cannot handle 150+ concurrent GET requests. This identifies the stress threshold.
