@@ -16,11 +16,7 @@
 | Maximum Response Time (ms)   | 2497                             |
 | Errors                       | 1527 (100%)                      |
 | Active Threads (at peak)     | 1212                             |
-
-## Observations
 - System failed under extreme load (100% requests errored)
 - Maximum response time before failure: 2497 ms
 - Indicates server breaking point reached
-
-## Conclusion
 Server cannot handle 1200+ concurrent GET requests. This identifies the stress threshold.
