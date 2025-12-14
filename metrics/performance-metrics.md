@@ -11,4 +11,5 @@
 | Error Count             | 50               |
 | Error %                 | 100%             |
 Notes: All requests failed; likely causes: server not running, URL or request body mismatch 
+Next steps: Verify server is running, check HTTP request URLs, headers, and body format.
 
