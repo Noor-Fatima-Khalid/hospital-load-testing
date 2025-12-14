@@ -48,3 +48,16 @@
     - Max Response Time: 1389 ms
     - Errors: 0 (0%)
 - Notes: GET requests do not use request body. System handled frequent read operations efficiently under load.
+
+
+### Patient Delete Load Test – CLI Run
+- Test Plan: jmeter/scripts/patient_delete.jmx
+- Total Requests: 50
+- Test Duration: 30 seconds
+- CLI run summary:
+    - Throughput: 1.7 requests/sec
+    - Avg Response Time: 132 ms
+    - Min Response Time: 116 ms
+    - Max Response Time: 488 ms
+    - Errors: 5 (10%)
+- Notes: 5 requests failed (10%), likely due to attempting to delete patients that were already deleted in previous runs. Delete requests used the `name` field from CSV instead of `patientId`.
