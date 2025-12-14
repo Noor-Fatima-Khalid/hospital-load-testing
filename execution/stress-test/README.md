@@ -31,3 +31,13 @@
 - Active Threads: 0 at end of test
 - Notes:
 System completely failed under this load. All requests returned errors, indicating the system cannot handle >1200 concurrent users for GET /patients. This run helps identify the breaking point for write operations.
+
+# GET /update 
+Total Requests: 325
+Average Throughput: 109.6 req/sec
+Average Response Time: 482 ms
+Min Response Time: 2 ms
+Max Response Time: 873 ms
+Errors: 100%
+Active Threads: 164 (peak)
+Notes: All requests failed under this load, indicating the system could not handle 164+ concurrent users with this configuration. Immediate failures suggest the need for performance optimization.
