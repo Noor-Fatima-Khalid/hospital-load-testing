@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 210,
+    "errorCount" : 210,
+    "errorPct" : 100.0,
+    "meanResTime" : 570.0952380952377,
+    "medianResTime" : 595.0,
+    "minResTime" : 29.0,
+    "maxResTime" : 893.0,
+    "pct1ResTime" : 854.0,
+    "pct2ResTime" : 873.3499999999999,
+    "pct3ResTime" : 892.67,
+    "throughput" : 234.11371237458195,
+    "receivedKBytesPerSec" : 622.7115558807135,
+    "sentKBytesPerSec" : 1.0353522157190636
+  },
+  "patient_delete" : {
+    "transaction" : "patient_delete",
+    "sampleCount" : 210,
+    "errorCount" : 210,
+    "errorPct" : 100.0,
+    "meanResTime" : 570.0952380952377,
+    "medianResTime" : 595.0,
+    "minResTime" : 29.0,
+    "maxResTime" : 893.0,
+    "pct1ResTime" : 854.0,
+    "pct2ResTime" : 873.3499999999999,
+    "pct3ResTime" : 892.67,
+    "throughput" : 234.11371237458195,
+    "receivedKBytesPerSec" : 622.7115558807135,
+    "sentKBytesPerSec" : 1.0353522157190636
+  }
+}
