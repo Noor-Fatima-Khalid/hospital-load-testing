@@ -1,0 +1,11 @@
+### Patient Create Load Test
+- Test Plan: jmeter/scripts/patient_create.jmx
+- Total Requests: 50
+- Test Duration: ~30 seconds
+- CLI run output:
+    - Throughput: 1.7 requests/sec
+    - Avg Response Time: 5 ms
+    - Min Response Time: 1 ms
+    - Max Response Time: 124 ms
+    - Errors: 50 (100%)
+- Notes: All requests failed; because server was not running. This was corrected by running the backend service and then testing.
