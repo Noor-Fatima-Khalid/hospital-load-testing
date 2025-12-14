@@ -41,7 +41,6 @@ Notes: System handled load well; minor errors occurred, possibly due to test dat
 Notes: Updates performed using patient `name` from CSV. Minor error occurred; system performed well under load.
 
 # Performance Metrics – Patient Read Test
-
 | Metric                  | Value            |
 |-------------------------|------------------|
 | Total Requests          | 200              |
@@ -53,3 +52,16 @@ Notes: Updates performed using patient `name` from CSV. Minor error occurred; sy
 | Error Count             | 0                |
 | Error %                 | 0%               |
 Notes: Loop count = 4 for 50 users; GET requests without request body; system handled frequent reads efficiently.
+
+# Performance Metrics – Patient Delete Test
+| Metric                  | Value              |
+|-------------------------|-----------------|
+| Total Requests          | 50               |
+| Test Duration           | 30 sec           |
+| Throughput              | 1.7 requests/sec |
+| Avg Response Time       | 132 ms           |
+| Min Response Time       | 116 ms           |
+| Max Response Time       | 488 ms           |
+| Error Count             | 5                |
+| Error %                 | 10%               |
+Notes: Delete requests performed using patient `name` from CSV; 5 requests failed likely due to already deleted patients.
