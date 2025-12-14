@@ -1,4 +1,5 @@
-# Performance Metrics - GET /patients
+# Performance Metrics
+## GET /patients
 
 | Concurrent Users | Avg Response Time (ms) | Min Response (ms) | Max Response (ms) | Throughput (req/sec) | Error % | Status |
 |------------------|------------------------|-------------------|-------------------|----------------------|---------|--------|
@@ -6,7 +7,7 @@
 | 3000             | 646                    | 0                 | 2280              | 205.2                | 98.36%  | Failed |
 
 
-## Performance Metrics - POST /register
+## POST /register
 | Metric                       | Value                             |
 |-------------------------------|----------------------------------|
 | Total Requests               | 1527                             |
@@ -20,3 +21,14 @@
 - Maximum response time before failure: 2497 ms
 - Indicates server breaking point reached
 Server cannot handle 1200+ concurrent GET requests. This identifies the stress threshold.
+
+## POST /update
+| Metric                | Value         |
+| --------------------- | ------------- |
+| Total Requests        | 325           |
+| Average Throughput    | 109.6 req/sec |
+| Average Response Time | 482 ms        |
+| Minimum Response Time | 2 ms          |
+| Maximum Response Time | 873 ms        |
+| Error Percentage      | 100%          |
+| Active Threads (peak) | 164           |
