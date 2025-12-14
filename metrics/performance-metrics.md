@@ -39,3 +39,17 @@ Notes: System handled load well; minor errors occurred, possibly due to test dat
 | Error Count             | 1                |
 | Error %                 | 2%               |
 Notes: Updates performed using patient `name` from CSV. Minor error occurred; system performed well under load.
+
+# Performance Metrics – Patient Read Test
+
+| Metric                  | Value            |
+|-------------------------|------------------|
+| Total Requests          | 200              |
+| Test Duration           | 31 sec           |
+| Throughput              | 6.4 requests/sec |
+| Avg Response Time       | 335 ms           |
+| Min Response Time       | 121 ms           |
+| Max Response Time       | 1389 ms          |
+| Error Count             | 0                |
+| Error %                 | 0%               |
+Notes: Loop count = 4 for 50 users; GET requests without request body; system handled frequent reads efficiently.
