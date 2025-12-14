@@ -20,18 +20,16 @@
 - Active Threads: 3000
 - Notes: System failed under extreme load. Almost all requests failed, indicating the breaking point is between 2000 - 3000 or slightly above 3000 users.
 
-# GET /patients Stress Test Execution
+# POST /register Stress Test Execution
 
-Test Run: GET /patients - Stress Test
-Threads/Users: 2240 (started), peaked at 1218 active
-Total Requests: 1527
-Average Throughput: 293.5 req/sec
-Average Response Time: 645 ms
-Min Response Time: 0 ms
-Max Response Time: 2497 ms
-Errors: 100% (all requests failed)
-Active Threads: 0 at end of test
-Notes:
-System completely failed under this load.
-All requests returned errors, indicating the system cannot handle >1200 concurrent users for GET /patients.
-This run helps identify the breaking point for read operations.
+Test Run: POST /register 
+- Threads/Users: 2240 (started), peaked at 1218 active
+- Total Requests: 1527
+- Average Throughput: 293.5 req/sec
+- Average Response Time: 645 ms
+- Min Response Time: 0 ms
+- Max Response Time: 2497 ms
+- Errors: 100% (all requests failed)
+- Active Threads: 0 at end of test
+- Notes:
+System completely failed under this load. All requests returned errors, indicating the system cannot handle >1200 concurrent users for GET /patients. This run helps identify the breaking point for write operations.
