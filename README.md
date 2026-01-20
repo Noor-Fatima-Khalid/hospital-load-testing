@@ -2,8 +2,6 @@
 
 This repository contains the load and stress testing setup for the **Hospital Management System**. The testing is performed using **Apache JMeter** to evaluate the performance and stability of patient CRUD operations.
 
----
-
 ## Project Overview
 This project focuses on testing the **Hospital Management System** for its **load handling, response time, and stability**. The testing includes:
 
@@ -14,16 +12,13 @@ This project focuses on testing the **Hospital Management System** for its **loa
 
 The system under test is the **Patient Management module** with full CRUD operations.
 
----
-
 ## Test Plan
 
 The **test plan** documents the scope, objectives, environment, load profiles, and metrics captured during testing.
 
 - Load Testing: Simulates normal user activity (50 users, ramp-up 30s, 5 min duration)  
 - Stress Testing: Gradually increases users until failures occur (increments of 50 users, ramp-up 10s, duration up to 10 min) or spikes it for extreme behaviour
----
-
+  
 ## JMeter Scripts
 
 All JMeter test plans are stored in `jmeter/scripts/`:
@@ -32,7 +27,6 @@ All JMeter test plans are stored in `jmeter/scripts/`:
 - `patient_read.jmx` – Read patient  
 - `patient_update.jmx` – Update patient  
 - `patient_delete.jmx` – Delete patient  
----
 
 ## Execution & Reports
 
@@ -40,8 +34,6 @@ All JMeter test plans are stored in `jmeter/scripts/`:
 - Store execution results in `execution/load-test/` and `execution/stress-test/`  
 - HTML and CSV reports saved in `reports/html-reports/`  
 - Graphs for response times, throughput, and error rates in `reports/graphs/`  
-
----
 
 ## Performance Metrics
 
@@ -54,7 +46,6 @@ Metrics captured during testing include:
 
 All metrics analysis can be found in `metrics/performance-metrics.md`.
 
----
 
 ## Getting Started
 
